@@ -23,34 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okGo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="357">
+              <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
               <folding>
-                <element signature="e#1274#1278#0" expanded="true" />
-                <element signature="e#1279#1283#0" expanded="true" />
-                <element signature="e#1302#1306#0" expanded="true" />
-                <element signature="e#1308#1312#0" expanded="true" />
-                <element signature="e#1313#1317#0" expanded="true" />
-                <element signature="e#1318#1322#0" expanded="true" />
-                <element signature="e#1358#1362#0" expanded="true" />
-                <element signature="e#1364#1368#0" expanded="true" />
-                <element signature="e#1369#1373#0" expanded="true" />
-                <element signature="e#1376#1380#0" expanded="true" />
-                <element signature="e#1381#1385#0" expanded="true" />
-                <element signature="e#1388#1392#0" expanded="true" />
-                <element signature="e#1393#1397#0" expanded="true" />
-                <element signature="e#1398#1402#0" expanded="true" />
-                <element signature="e#1422#1426#0" expanded="true" />
-                <element signature="e#1428#1432#0" expanded="true" />
+                <element signature="e#1283#1287#0" expanded="true" />
+                <element signature="e#1288#1292#0" expanded="true" />
+                <element signature="e#1311#1315#0" expanded="true" />
+                <element signature="e#1317#1321#0" expanded="true" />
+                <element signature="e#1322#1326#0" expanded="true" />
+                <element signature="e#1327#1331#0" expanded="true" />
+                <element signature="e#1367#1371#0" expanded="true" />
+                <element signature="e#1373#1377#0" expanded="true" />
+                <element signature="e#1378#1382#0" expanded="true" />
+                <element signature="e#1385#1389#0" expanded="true" />
+                <element signature="e#1390#1394#0" expanded="true" />
+                <element signature="e#1397#1401#0" expanded="true" />
+                <element signature="e#1402#1406#0" expanded="true" />
+                <element signature="e#1407#1411#0" expanded="true" />
+                <element signature="e#1431#1435#0" expanded="true" />
+                <element signature="e#1437#1441#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okGo/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -76,9 +76,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/table.html" />
-        <option value="$PROJECT_DIR$/okGo/index.html" />
         <option value="$PROJECT_DIR$/tableIt/table.html" />
         <option value="$PROJECT_DIR$/okGo/css/app.css" />
+        <option value="$PROJECT_DIR$/okGo/index.html" />
       </list>
     </option>
   </component>
@@ -198,12 +198,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472358958082</updated>
-      <workItem from="1472358959217" duration="5994000" />
+      <workItem from="1472358959217" duration="6379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5994000" />
+    <option name="totallyTimeSpent" value="6379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="642" y="0" width="638" height="800" extended-state="0" />
@@ -251,36 +251,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okGo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#1274#1278#0" expanded="true" />
-            <element signature="e#1279#1283#0" expanded="true" />
-            <element signature="e#1302#1306#0" expanded="true" />
-            <element signature="e#1308#1312#0" expanded="true" />
-            <element signature="e#1313#1317#0" expanded="true" />
-            <element signature="e#1318#1322#0" expanded="true" />
-            <element signature="e#1358#1362#0" expanded="true" />
-            <element signature="e#1364#1368#0" expanded="true" />
-            <element signature="e#1369#1373#0" expanded="true" />
-            <element signature="e#1376#1380#0" expanded="true" />
-            <element signature="e#1381#1385#0" expanded="true" />
-            <element signature="e#1388#1392#0" expanded="true" />
-            <element signature="e#1393#1397#0" expanded="true" />
-            <element signature="e#1398#1402#0" expanded="true" />
-            <element signature="e#1422#1426#0" expanded="true" />
-            <element signature="e#1428#1432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okGo/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okGo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
+          <folding>
+            <element signature="e#1283#1287#0" expanded="true" />
+            <element signature="e#1288#1292#0" expanded="true" />
+            <element signature="e#1311#1315#0" expanded="true" />
+            <element signature="e#1317#1321#0" expanded="true" />
+            <element signature="e#1322#1326#0" expanded="true" />
+            <element signature="e#1327#1331#0" expanded="true" />
+            <element signature="e#1367#1371#0" expanded="true" />
+            <element signature="e#1373#1377#0" expanded="true" />
+            <element signature="e#1378#1382#0" expanded="true" />
+            <element signature="e#1385#1389#0" expanded="true" />
+            <element signature="e#1390#1394#0" expanded="true" />
+            <element signature="e#1397#1401#0" expanded="true" />
+            <element signature="e#1402#1406#0" expanded="true" />
+            <element signature="e#1407#1411#0" expanded="true" />
+            <element signature="e#1431#1435#0" expanded="true" />
+            <element signature="e#1437#1441#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
