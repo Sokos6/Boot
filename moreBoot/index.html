@@ -10,21 +10,25 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-
-    <header>
-        <div class="container">
-        <!--row 1-->
-        <div class="row">
-            <a class="brand pull-left" href="#">Company Name</a>
-            <ul class="list-inline list-unstyled pull-right">
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-        </div>
-    </header>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Company name</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="nav-menu" class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
     <section id="intro-header">
         <div class="container">
             <!--row 2-->
@@ -35,12 +39,27 @@
                     <hr>
                     <ul class="list-inline list-unstyled text-center">
                         <li>
-                            <a class="btn btn-default btn-lg" href="#" role="button">Sign in</a>
+                            <a id="sign-btn" class="btn btn-default btn-lg" href="#" role="button">Sign in</a>
                         </li>
                         <li>
                             <a class="btn btn-primary btn-lg" href="#" role="button">Sign up</a>
                         </li>
                     </ul>
+                    <form id="signin" class="form-inline text-center hidden-element">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">@</div>
+                                <input type="text" class="form-control" id="signin-email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">*</div>
+                                <input type="password" class="form-control" id="signin-password" placeholder="Password">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-default">Sign in</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -89,24 +108,43 @@
             <!-- row 6 -->
             <div class="row">
                 <div class="col-sm-2 col-md-4">
-                    <div class="feature">Feature</div>
+                    <div class="feature">
+                        <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span>
+                        <span class="feature-tag">Product focus</span>
+                    </div>
                 </div>
                 <div class="col-sm-2 col-md-4">
-                    <div class="feature">Feature</div>
+                    <div class="feature">
+                        <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+                        <span class="feature-tag">Teaching as a passion</span>
+                    </div>
                 </div>
                 <div class="col-sm-2 col-md-4">
-                    <div class="feature">Feature</div>
+                    <div class="feature">
+                        <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                        <span class="feature-tag">Spreading knowledge</span>
+                    </div>
                 </div>
                 <div class="col-sm-2 col-md-4">
-                    <div class="feature">Feature</div>
+                    <div class="feature">
+                        <span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>
+                        <span class="feature-tag">Save your day time</span>
+                    </div>
                 </div>
                 <div class="col-sm-2 col-md-4">
-                    <div class="feature">Feature</div>
+                    <div class="feature">
+                        <span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+                        <span class="feature-tag">Make it fancy</span>
+                    </div>
                 </div>
                 <div class="col-sm-2 col-md-4">
-                    <div class="feature">Feature</div>
+                    <div class="feature">
+                        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                        <span class="feature-tag">Made with love</span>
+                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <section id="pricing">
@@ -183,6 +221,30 @@
                 </div>
             </div>
         </div>
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="list-inline list-unstyled text-center">
+                            <li>
+                                <img src="img/jon.png" class="img-rounded">
+                                <h5>Jonny Doo</h5>
+                                <p>CEO</p>
+                            </li>
+                            <li>
+                                <img src="img/jon.png" class="img-circle">
+                                <h5>Jonny Doo</h5>
+                                <p>CTO</p>
+                            </li>
+                            <li>
+                                <img src="img/jon.png" class="img-thumbnail">
+                                <h5>Jonny Doo</h5>
+                                <p>CIO</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
     </section>
     <section id="newsletter" class="text-center">
         <h4>Stay Connected with us. Sign up for our Newsletter.

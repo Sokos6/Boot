@@ -132,3 +132,47 @@ section#contact form {
     padding-top: 9rem;
     padding-bottom: 3rem;
 }
+
+/*sign in*/
+.hidden-element {
+    display: none;
+}
+/*team*/
+section#team ul {
+    margin: 5rem 0;
+}
+section#team li {
+    margin: 0 5rem;
+}
+section#team h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/*icons*/
+section#features .feature {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+section#features .glyphicon {
+    font-size: 2rem;
+}
+
+section#features .glyphicon-heart {
+    color: #E04C4C;
+}
+
+section#features .feature-tag {
+    max-width: 10.7em;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1.5em;
+    font-size: 1.7rem;
+}
+body {
+    padding-top: 3.6em;
+}
+#nav-menu {
+    margin-right: 1rem;
+}
