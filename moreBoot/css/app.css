@@ -176,3 +176,13 @@ body {
 #nav-menu {
     margin-right: 1rem;
 }
+nav .btn-group {
+    margin: 0.8rem 2rem 0 0;
+}
+@media(max-width: 48em) {
+    nav .btn-group {
+        position: absolute;
+        top: 0;
+        right: 4em;
+    }
+}
